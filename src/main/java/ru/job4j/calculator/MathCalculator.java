@@ -8,7 +8,7 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double sumDiffAnddiv(double first, double second) {
+    public static double sumDifAnddiv(double first, double second) {
         return diff(first, second) + div(first, second);
     }
 
@@ -18,7 +18,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMiltiply(10, 20));
-        System.out.println("Результат расчета равен: " + sumDiffAnddiv(10, 20));
+        System.out.println("Результат расчета равен: " + sumDifAnddiv(10, 20));
         System.out.println("Результат расчета равен: " + sumSummAndMultiplyAndDiffAnddiv(10, 20));
     }
 }
