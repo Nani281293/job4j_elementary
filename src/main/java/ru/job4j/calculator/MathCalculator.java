@@ -9,12 +9,12 @@ public class MathCalculator {
     public static double sumDiffAnddiv(double first, double second) {
         return diff(first, second) + div(first, second);
     }
-    public static double sumSumAndMultiplyAndDiffAnddiv(double first, double second) {
+    public static double sumSummAndMultiplyAndDiffAnddiv(double first, double second) {
         return  sum(first, second) + multiply(first, second) + diff(first, second) + div(first, second);
     }
     public static void main (String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMiltiply(10, 20));
         System.out.println("Результат расчета равен: " + sumDiffAnddiv(10, 20));
-        System.out.println("Результат расчета равен: " + sumSumAndMultiplyAndDiffAnddiv(10, 20));
+        System.out.println("Результат расчета равен: " + sumSummAndMultiplyAndDiffAnddiv(10, 20));
     }
 }
