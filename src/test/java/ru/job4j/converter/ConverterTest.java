@@ -18,7 +18,7 @@ class ConverterTest {
     void whenConvert225RblThen0Dollar() {
         double input = 225;
         double expected = 3;
-        double output = Converter.rubleToDollar(input);
+        double output = Converter.rubleToDolar(input);
         double value = 0.00001;
         assertThat(output).isEqualTo(expected, withPrecision(value));
         }
