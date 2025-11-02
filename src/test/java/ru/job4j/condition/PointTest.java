@@ -9,7 +9,7 @@ class PointTest {
     void whenPoints00And20Then2() {
         int x1 = 0, y1 = 0, x2 = 2, y2 = 0;
         double expected = 2;
-        double output = Point.distanc(x1, y1, x2, y2);
+        double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
@@ -17,7 +17,7 @@ class PointTest {
     void whenPointsMinus1Minus1And11Then2Dot83() {
         int x1 = -1, y1 = -1, x2 = 1, y2 = 1;
         double expected = 2.83;
-        double output = Point.distanc(x1, y1, x2, y2);
+        double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
         }
 
@@ -25,7 +25,7 @@ class PointTest {
     void whenPointsMinus2Minus2And22Then5Dot66() {
         int x1 = -2, y1 = -2, x2 = 2, y2 = 2;
         double expected = 5.66;
-        double output = Point.distanc(x1, y1, x2, y2);
+        double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 }
