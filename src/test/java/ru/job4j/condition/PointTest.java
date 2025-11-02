@@ -23,7 +23,7 @@ class PointTest {
 
     @Test
     void whenPointsMinus2Minus2And22Then5Dot66 () {
-        int x1 = -12, y1 = -2, x2 = 2, y2 = 2;
+        int x1 = -2, y1 = -2, x2 = 2, y2 = 2;
         double expected = 5.66;
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
