@@ -3,11 +3,9 @@ package ru.job4j.loop;
 public class Factorial {
     public static long calculate(int number) {
         long result = 1;
-        for (long index = result; index <= number; index++) {
-            if (index <= number) {
-                result = result * index;
+        for (long index = 2; index <= number; index++) {
+            result *= index;
             }
-        }
         return result;
     }
 
