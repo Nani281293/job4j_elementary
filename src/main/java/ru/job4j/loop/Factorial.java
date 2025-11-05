@@ -13,7 +13,7 @@ public class Factorial {
         System.out.println("Factorial number 0 = " + Factorial.calculate(0));
         System.out.println("Factorial number 1 = " + Factorial.calculate(1));
         System.out.println("Factorial number 4 = " + Factorial.calculate(4));
-        System.out.println("Factorial number 20 = " + Factorial.calculate(20));
+        System.out.println("Factorial number 21 = " + Factorial.calculate(19));
     }
 }
 

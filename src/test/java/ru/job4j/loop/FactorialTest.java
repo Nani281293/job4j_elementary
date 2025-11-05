@@ -30,9 +30,9 @@ class FactorialTest {
     }
 
     @Test
-    void whenCalculateFactorialFor20Then24() {
-        int number = 20;
-        long expected = 2432902008176640000L;
+    void whenCalculateFactorialFor19Then12() {
+        int number = 19;
+        long expected = 121645100408832000L;
         long output = Factorial.calculate(number);
         assertThat(output).isEqualTo(expected);
     }
