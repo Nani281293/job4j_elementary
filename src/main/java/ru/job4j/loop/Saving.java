@@ -14,6 +14,6 @@ public class Saving {
     }
 
     public static void main(String[] args) {
-        System.out.println(Saving.years(500, 100, 5));
+        System.out.println(Saving.years(2000, 100, 30));
     }
 }
