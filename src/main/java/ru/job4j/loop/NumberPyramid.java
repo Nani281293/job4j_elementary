@@ -5,15 +5,15 @@ public class NumberPyramid {
         for (int i = 1; i <= n; i++) {
             //Печатаем пробелы
             for (int j = 1; j <= n - i; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
             // Печатаем числа в прямом порядке
             for (int j = 1; j <= i; j++) {
-                System.out.println(j);
+                System.out.print(j);
         }
             // Печатаем числа в обратном порядке
             for (int j = i - 1; j >= 1; j--) {
-                System.out.println(j);
+                System.out.print(j);
             }
             //Переходим на новую строку
         System.out.println();
