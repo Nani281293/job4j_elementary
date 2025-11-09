@@ -12,7 +12,6 @@ public class CheckPrimeNumber {
         return num;
     }
 
-
     public static void main(String[] args) {
         System.out.println(check(9));
     }
