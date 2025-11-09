@@ -4,8 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class CheckTest {
 
     @Test
@@ -31,7 +29,7 @@ class CheckTest {
 
     @Test
     void whenDataNotMonoByFalseThenFalse() {
-        boolean[] data = {false, true, false};
+        boolean[] data = {false, true, true};
         boolean result = Check.mono(data);
         assertThat(result).isFalse();
     }
