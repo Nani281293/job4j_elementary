@@ -3,7 +3,7 @@ package ru.job4j.loop;
 public class CheckPrimeNumber {
     public static boolean check(int number) {
         boolean num = number > 1;
-        for (int index = 2; index < number; index++) {
+        for (int index = 2; index * index <= number; index++) {
             if (number % index == 0) {
                 num = false;
                 break;
