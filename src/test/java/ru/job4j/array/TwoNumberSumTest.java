@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class TwoNumberSumTest {
+
     @Test
     void whenTwoEqualsNumbersYesTarget() {
         int[] array = {5, 5};
@@ -35,7 +36,7 @@ class TwoNumberSumTest {
     @Test
     void whenWithoutNegativeNumbersYesTarget() {
         int[] array = {0, 2, 5, 8, 10, 12};
-        int target = 15;
+        int target = 12;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {2, 4};
         assertThat(result).isEqualTo(expected);
