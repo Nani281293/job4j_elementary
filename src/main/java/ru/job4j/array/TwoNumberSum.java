@@ -7,10 +7,10 @@ public class TwoNumberSum {
         while (i != j) {
             if (array[i] + array[j] == target) {
                 return new int[]{i, j};
-            } else {
-                i++;
             }
-            if (array[i] + array[j] > target) {
+            if (array[i] + array[j] < target) {
+                i++;
+            } else {
                 j--;
             }
         }
